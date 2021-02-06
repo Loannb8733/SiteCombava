@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title> Combava </title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link rel="shortcut icon" href="images/image4.ico" >
+	 <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <img src="images/logoDavids.png" class="logo" alt="" />
+        <h1> Fête de la citronnade </h1>
+        <img src="images/drapeauFR.png" class="drapeau" alt="" />
+        <a href="siteANG.html"><img src="images/drapeauANG.png" class="drapeau" alt="" /></a>
+        <a href="siteESP.html"><img src="images/drapeauESP.png" class="drapeau" alt="" /></a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Présentation" class="menu"> Présentation </a></li>
+            <li><a href="#Evenements" class="menu"> Evenements </a></li>
+            <li><a href="#Formulaire" class="menu"> Formulaire </a></li>
+            <li><a href="#Réseaux" class="menu"> Réseaux </a></li>
+        </ul>
+    </nav>
+
+        <section>
+            <div class="section1Droite" id="Présentation">
+                <h2> Présentation </h2>
+
+
+                        <p class="titreParaCentre"> Combava et David's Limonade... qu'est ce que c'est ? </p> <br>
+                            <img class="image1" src="images/image1.PNG" alt="" />
+                                <p>
+                                    Nous sommes une association de producteurs d'agrumes bio, nous sommes français et indépendants. <br>
+                                    Nous souhaitons vous proposer des évènements privés dans tout le pays afin de vous faire déguster nos citronnades.
+                                </p>
+
+                            <br>
+
+                    <p class="titreParaCentre"> On vous propose de goûter, et on sait déjà que ça va vous plaire. </p> <br>
+                        <img class="image2" src="images/image2.PNG" alt="" />
+                            <p>
+                                A travers ces 6 rencontres, vous pourrez non seulement déguster, mais vous pourrez également choisir de soutenir une production bio de produits frais et de qualité en repartant avec votre citronnade.
+                            </p>
+
+                            <br>
+
+                    <p class="titreParaCentre"> Voir c'est bien, venir c'est encore mieux ! </p> <br>
+                        <img class="image3" src="images/image3.PNG" alt="" />
+                            <p>
+                                Nos rencontres ont lieu dans 6 villes de France à 6 dates différentes dans lesquelles vous aurez l'occasion de partager avec nos producteurs, nos associations locales, avec d'autres magasins et bien plus encore !
+                            </p>
+
+                            <br>
+
+                    <p class="titreParaCentre"> Venir, oui, mais comment ? </p> <br>
+                        <img class="image4" src="images/image4.PNG" alt="" />
+                            <p>
+                                Rien de plus simple, il vous suffit de remplir le formulaire d'inscription pour vous rendre à un ou plusieurs des évènements que nous proposons, et de nous retrouver là-bas !
+                            </p>
+
+                    <p>
+                        Pour plus d'informations rendez vous sur <a href="http://www.combava.com/"> le site </a>
+                    </p>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="Evenements" class="section1Gauche">
+                <h2> Carte des évènements </h2>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1hntiJoY3AOjoMbu-xcXbheJ4lI5V6gkN&hl=fr"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <div class="formul" id="Formulaire">
+                <h2> Formulaire </h2>
+            </div>
+
+            <div id="afficher">
+                <div id="masquer">
+                    <p class="phraseAfficher">
+                        Si vous voulez vous inscrire à un de ces évènements veuillez cliquer <a href="#afficher" class="afficher"> ici </a>
+                    </p>
+
+                    <div id="FORMULAIRE">
+
+                                <div class="definition">
+                                    <h1> Formulaire d'inscription </h1>
+
+                                    <form>
+                                        <div class="section"> <span> 1 </span> Vos coordonnées </div>
+                                            <div class="inner-wrap">
+                                                <label> Votre Nom <input type="text" name="nom" placeholder="Dupont" maxlength="20" required/></label>
+                                                <label> Votre Prénom <input type="text" name="prenom" placeholder="Jean" maxlength="15" required ></label>
+                                                <label> Mail <input type="email" name="mail" placeholder="jean.dupont@gmail.com" required /></label>
+                                                <label> Téléphone <input type="text" name="tel" placeholder="XX-XX-XX-XX-XX" maxlength="14" required /></label>
+                                                <label id="job"> Région </label>
+                                                    <select id="region" name="region">
+                                                        <option value="region"> Auvergne-Rhône-Alpes </option>
+                                                        <option value="region"> Bourgogne-Franche-Comté </option>
+                                                        <option value="region"> Bretagne </option>
+                                                        <option value="region"> Centre-Val de Loire </option>
+                                                        <option value="region"> Corse </option>
+                                                        <option value="region"> Grand Est </option>
+                                                        <option value="region"> Hauts-de-France </option>
+                                                        <option value="region"> Île-de-France </option>
+                                                        <option value="region"> Nouvelle-Aquitaine </option>
+                                                        <option value="region"> Nouvelle-Aquitaine </option>
+                                                        <option value="region"> Occitanie </option>
+                                                        <option value="region"> Pays de la Loire </option>
+                                                        <option value="region"> Provence-Alpes-Côte d'Azur </option>
+                                                  </select>
+                                            </div>
+
+
+                                            <div class="section"> <span> 2 </span> Evenements </div>
+                                                <div class="inner-wrap">
+                                                    <label id="choix"> Choix </label>
+                                                        <span id="villes">
+                                                            <input type="checkbox" name="field4" > Bordeaux
+                                                            <input type="checkbox" name="field4" class="ville1"> Lille <br>
+                                                            <input type="checkbox" name="field4" > Nice
+                                                            <input type="checkbox" name="field4" class="ville2"> Quimper <br>
+                                                            <input type="checkbox" name="field4"> Montpellier
+                                                            <input type="checkbox" name="field4" class="ville3"> Lyon <br>
+                                                        </span>
+                                                </div>
+
+
+
+
+                                        <div class="section"><span>3</span> Informations </div>
+                                            <div class="inner-wrap">
+                                                <label id="InfoRecu"> Voulez-vous recevoir plus d'informations ? </label>
+                                                    <select id="info" name="field4">
+                                                      <option value="reponseOui"> Oui </option>
+                                                      <option value="reponseNon"> Non </option>
+                                                    </select>
+                                            </div>
+                                            <div class="button-section">
+                                                <input type="submit" name="Sign Up" value="Envoyer" />
+                                                <span class="privacy-policy">
+                                                    <input type="checkbox" name="field7"> Vous acceptez nos conditions et notre politique.
+                                                </span>
+                                            </div>
+                                    </form>
+                                    <br>
+
+                                        <a href="#masquer" class="masquer"> Fermer le formulaire </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+    <footer>
+        <div id="Réseaux">
+            <div class="photo-brightness">
+                <a href="https://fr-fr.facebook.com/"> <p class="fb" /> Facebook </p> </a>
+                <a href="https://www.instagram.com/"> <p class="insta" /> Instagram </p> </a>
+                <a href="https://twitter.com/"> <p class="twitter" /> Twitter </p> </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

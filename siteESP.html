@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title> Combava </title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/image4.ico" >
+
+</head>
+<body>
+
+    <header>
+        <img src="images/logoDavids.png" class="logo" alt="" />
+        <h1> Festival de la Limonada </h1>
+        <a href="index.html"><img src="images/drapeauFR.png" class="drapeau" alt="" /></a>
+        <a href="siteANG.html"><img src="images/drapeauANG.png" class="drapeau" alt="" /></a>
+        <img src="images/drapeauESP.png" class="drapeau" alt="" />
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Présentation" class="menu"> Presentación </a></li>
+            <li><a href="#Evenements" class="menu"> Eventos </a></li>
+            <li><a href="#Formulaire" class="menu"> Formulario </a></li>
+            <li><a href="#Réseaux" class="menu"> Redes </a></li>
+        </ul>
+    </nav>
+
+        <section>
+            <div class="section1Droite" id="Présentation">
+                <h2> Presentación </h2>
+
+
+                <p class="titreParaCentre"> Combava y la limonada de David... ¿Qué es? </p> <br>
+                <img class="image1" src="images/image1.PNG" alt="" />
+                <p>
+                    Somos una asociación de productores de cítricos orgánicos, somos franceses e independientes. <br>
+                    Nos gustaría ofrecerles eventos privados en todo el país para que prueben nuestras limonadas.
+                </p>
+
+                <br>
+
+                <p class="titreParaCentre"> Te estamos ofreciendo una prueba, y ya sabemos que te gustará. </p> <br>
+                <img class="image2" src="images/image2.PNG" alt="" />
+                <p>
+                    A través de estos 6 encuentros, no sólo podrá probar, sino que también podrá optar por apoyar una producción orgánica de productos frescos y de calidad saliendo con su limonada.
+                </p>
+
+                <br>
+
+                <p class="titreParaCentre"> Ver es bueno, venir es aún mejor! </p> <br>
+                <img class="image3" src="images/image3.PNG" alt="" />
+                <p>
+                    Nuestros encuentros tienen lugar en 6 ciudades de Francia en 6 fechas diferentes donde tendrás la oportunidad de compartir con nuestros productores, asociaciones locales, otras tiendas y mucho más!
+                </p>
+
+                <br>
+
+                <p class="titreParaCentre"> Vamos, sí, pero ¿cómo? </p> <br>
+                <img class="image4" src="images/image4.PNG" alt="" />
+                <p>
+                    Nada más sencillo, sólo hay que rellenar el formulario de inscripción para ir a uno o más de los eventos que ofrecemos, ¡y encontrarnos allí!
+                </p>
+
+                <p>
+                    Para más información, por favor visite <a href="http://www.combava.com/"> el sitio web </a>
+                </p>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="Evenements" class="section1Gauche">
+                <h2> Mapa de eventos </h2>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1hntiJoY3AOjoMbu-xcXbheJ4lI5V6gkN&hl=fr"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <div class="formul" id="Formulaire">
+                <h2> Formulario </h2>
+            </div>
+
+            <div id="afficher">
+                <div id="masquer">
+                    <p class="phraseAfficher">
+                        Si desea registrarse para uno de estos eventos, por favor haga clic <a href="#afficher" class="afficher"> aquí </a>
+                    </p>
+
+                    <div id="FORMULAIRE">
+
+                        <div class="definition">
+                            <h1> Formulario de inscripción </h1>
+
+                            <form>
+                                <div class="section"> <span> 1 </span> Sus datos de contacto </div>
+                                <div class="inner-wrap">
+                                    <label> Tu nombre <input type="text" name="nom" placeholder="Dupont" maxlength="20" required /></label>
+                                    <label> Apellido <input type="text" name="prenom" placeholder="Jean" maxlength="15" required></label>
+                                    <label> Correo electrónico <input type="email" name="mail" placeholder="jean.dupont@gmail.com" required /></label>
+                                    <label> Teléfono <input type="text" name="tel" placeholder="XX-XX-XX-XX-XX" maxlength="14" required /></label>
+                                    <label id="job"> Región </label>
+                                    <select id="region" name="region">
+                                        <option value="region"> Auvergne-Rhône-Alpes </option>
+                                        <option value="region"> Bourgogne-Franche-Comté </option>
+                                        <option value="region"> Bretagne </option>
+                                        <option value="region"> Centre-Val de Loire </option>
+                                        <option value="region"> Corse </option>
+                                        <option value="region"> Grand Est </option>
+                                        <option value="region"> Hauts-de-France </option>
+                                        <option value="region"> Île-de-France </option>
+                                        <option value="region"> Nouvelle-Aquitaine </option>
+                                        <option value="region"> Nouvelle-Aquitaine </option>
+                                        <option value="region"> Occitanie </option>
+                                        <option value="region"> Pays de la Loire </option>
+                                        <option value="region"> Provence-Alpes-Côte d'Azur </option>
+                                    </select>
+                                </div>
+
+
+                                <div class="section"> <span> 2 </span> Eventos </div>
+                                <div class="inner-wrap">
+                                    <label id="choix"> Elección </label>
+                                    <span id="villes">
+                                        <input type="checkbox" name="field4"> Bordeaux
+                                        <input type="checkbox" name="field4" class="ville1"> Lille <br>
+                                        <input type="checkbox" name="field4"> Nice
+                                        <input type="checkbox" name="field4" class="ville2"> Quimper <br>
+                                        <input type="checkbox" name="field4"> Montpellier
+                                        <input type="checkbox" name="field4" class="ville3"> Lyon <br>
+                                    </span>
+                                </div>
+
+
+
+
+                                <div class="section"><span>3</span> Información </div>
+                                <div class="inner-wrap">
+                                    <label id="InfoRecu">¿Desea recibir más información? </label>
+                                    <select id="info" name="field4">
+                                        <option value="reponseOui"> sí </option>
+                                        <option value="reponseNon"> No </option>
+                                    </select>
+                                </div>
+                                <div class="button-section">
+                                    <input type="submit" name="Sign Up" value="Send" />
+                                    <span class="privacy-policy">
+                                        <input type="checkbox" name="field7"> Usted está de acuerdo con nuestros términos y nuestra política.
+                                    </span>
+                                </div>
+                            </form>
+                            <br>
+
+                            <a href="#masquer" class="masquer"> Cierre el formulario </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+    <footer
+        <div id="Réseaux">
+                <div class="photo-brightness">
+                  <a href="https://fr-fr.facebook.com/"> <p class="fb" /> Facebook </p> </a>
+                  <a href="https://www.instagram.com/"> <p class="insta" /> Instagram </p> </a>
+                  <a href="https://twitter.com/"> <p class="twitter" /> Twitter </p> </a>
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
