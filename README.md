@@ -1,4 +1,4 @@
-<h1> Site Combava </h1>
+<h1> Site Combava :lemon:</h1>
 <p> 
   Dans le cadre du module d'interface homme-machine, nous avons créé en groupe de 3 et sur une durée de 2 semaines, un one-page pour une association fictive prénommée Combava     dans le but de leur permettre de promouvoir leurs événements à venir pour présenter leur différentes limonades. De plus mon groupe et moi avons décidé de traduire le site en   Anglais et en Espagnol dû à l'avance que nous avions pris.
   <br> <br>
